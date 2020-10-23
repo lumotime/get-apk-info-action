@@ -12,10 +12,18 @@ inputs:
 outputs:
   versionCode:
     description: 'apk versionCode'
-  versionNum:
-    description: 'apk versionNum'
+  versionName:
+    description: 'apk versionName'
   applicationId:
     description: 'apk applicationId'
+  compileSdkVersion:
+    description: 'apk compileSdkVersion'
+  minSdkVersion:
+    description: 'apk minSdkVersion'
+  targetSdkVersion:
+    description: 'apk targetSdkVersion'
+  icon:
+    description: 'apk icon'
   name:
     description: 'apk name'
 runs:

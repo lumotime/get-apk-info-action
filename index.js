@@ -12,8 +12,12 @@ async function main() {
         parser.parse().then(result => {
 
             core.setOutput("versionCode", result.versionCode);
-            core.setOutput("versionNum", result.versionName);
+            core.setOutput("versionName", result.versionName);
             core.setOutput("applicationId", result.package);
+            core.setOutput("compileSdkVersion", result.compileSdkVersion);
+            core.setOutput("minSdkVersion", result.usesSdk.minSdkVersion);
+            core.setOutput("targetSdkVersion", result.usesSdk.targetSdkVersion);
+            core.setOutput("icon", result.icon);
             core.setOutput("name", result.application.label);
             console.log('app info ----> ', result);
 
