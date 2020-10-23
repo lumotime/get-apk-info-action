@@ -20,7 +20,7 @@ async function main() {
             core.setOutput("icon", result.icon);
             core.setOutput("name", result.application.label);
             console.log('app info ----> ', result);
-
+            console.log('return info ----> ', core);
         }).catch(err => {
             console.log('err ----> ', err)
         });
