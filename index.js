@@ -18,7 +18,7 @@ async function main() {
             core.setOutput("minSdkVersion", result.usesSdk.minSdkVersion);
             core.setOutput("targetSdkVersion", result.usesSdk.targetSdkVersion);
             core.setOutput("icon", result.icon);
-            core.setOutput("name", result.application.label);
+            core.setOutput("name", result.application.label[0]);
             console.log('app info ----> ', result);
             console.log('return info ----> ', core);
         }).catch(err => {
