@@ -32,9 +32,13 @@ Output Parameter, mainly different compilation and build parameters, resulting i
 | Parameter   | Info                                                         |
 | ----------  | ------------------------------------------------------------ |
 | `versionCode`   |versionCode |
-| `versionNum`   | versionNum  |
+| `versionName`   | versionNum  |
 | `applicationId`   | applicationId |
-| `name`   | application label |
+| `compileSdkVersion`   | compileSdkVersion |
+| `minSdkVersion`   | minSdkVersion |
+| `targetSdkVersion`   | targetSdkVersion |
+| `icon`   | application icon |
+| `name`   | application name |
 
 
 
